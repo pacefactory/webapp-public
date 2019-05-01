@@ -1,12 +1,12 @@
 {
-  "main.js": "/webapp-public/static/js/main.bf3fbe1b.chunk.js",
-  "main.js.map": "/webapp-public/static/js/main.bf3fbe1b.chunk.js.map",
+  "main.js": "/webapp-public/static/js/main.60b43d4c.chunk.js",
+  "main.js.map": "/webapp-public/static/js/main.60b43d4c.chunk.js.map",
   "runtime~main.js": "/webapp-public/static/js/runtime~main.599221f3.js",
   "runtime~main.js.map": "/webapp-public/static/js/runtime~main.599221f3.js.map",
   "static/js/2.49d6537b.chunk.js": "/webapp-public/static/js/2.49d6537b.chunk.js",
   "static/js/2.49d6537b.chunk.js.map": "/webapp-public/static/js/2.49d6537b.chunk.js.map",
   "index.html": "/webapp-public/index.html",
-  "precache-manifest.7c7cb56e69cfb085ae7d0c87cbced37d.js": "/webapp-public/precache-manifest.7c7cb56e69cfb085ae7d0c87cbced37d.js",
+  "precache-manifest.1f84fc910b778e3c32dccb6f23c8f6f2.js": "/webapp-public/precache-manifest.1f84fc910b778e3c32dccb6f23c8f6f2.js",
   "service-worker.js": "/webapp-public/service-worker.js",
   "static/media/schema.graphql": "/webapp-public/static/media/schema.0b7a4fcc.graphql"
 }
