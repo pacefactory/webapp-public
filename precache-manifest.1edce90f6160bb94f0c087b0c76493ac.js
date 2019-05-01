@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "224c34573098e5270b25",
-    "url": "/webapp-public/static/js/main.bf3fbe1b.chunk.js"
+    "revision": "0e9a45ced4fab95d000c",
+    "url": "/webapp-public/static/js/main.585923a9.chunk.js"
   },
   {
     "revision": "9db66bc3633f5a3ad4fb",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/webapp-public/static/media/schema.0b7a4fcc.graphql"
   },
   {
-    "revision": "a7b98da2c7653b093de59a7a36e0ff73",
+    "revision": "c130d008ef9c390471ad9a639766028e",
     "url": "/webapp-public/index.html"
   }
 ];
