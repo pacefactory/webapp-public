@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/webapp-public/static/media/schema.0b7a4fcc.graphql"
   },
   {
-    "revision": "dacf85bbce2ada51aff51fe3564f5eb4",
+    "revision": "e3b7970f538a10dcbdce9a0768e9d15d",
     "url": "/webapp-public/index.html"
   }
 ];
