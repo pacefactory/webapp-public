@@ -1,0 +1,47 @@
+scalar Time
+
+type Image {
+    id: ID!
+    uri: String!
+    tags: [String!]!
+}
+
+enum Validation {
+    NONE
+    REJECTED
+    CONFIRMED
+}
+
+interface Event {
+    id: ID!
+    created: Time!
+    validation: Validation!
+}
+
+type AlarmEvent implements Event {
+    id: ID!
+    created: Time!
+    validation: Validation!
+    rule: String!
+    image: Image!
+}
+
+type Source {
+    id: ID!
+    name: String!
+    uri: String!
+}
+
+type Query {
+    sources: [Source!]!
+    events(sourceId: ID!): [Event!]!
+}
+
+input ValidateEventInput {
+    eventId: ID!
+    validation: Validation!
+}
+
+type Mutation {
+    validateEvent(input: ValidateEventInput!): Event!
+}

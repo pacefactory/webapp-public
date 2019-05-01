@@ -1,0 +1,312 @@
+/**
+ * The base styles required for webapp.
+ */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: "Lato";
+    font-style: italic;
+    font-weight: 400;
+    src: local("Lato Italic"), local("Lato-Italic"),
+        url(/fonts/LatoLatin-Italic.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Lato Regular"), local("Lato-Regular"),
+        url(/fonts/LatoLatin-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Lato Bold"), local("Lato-Bold"),
+        url(/fonts/LatoLatin-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Lato";
+    font-style: bold;
+    font-weight: 900;
+    src: local("Lato Black"), local("Lato-Black"),
+        url(/fonts/LatoLatin-Black.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Uppen Arms NF";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Uppen Arms"), local("Uppen-Arms"),
+        url(/fonts/UppenArmsNF-Medium.ttf) format("truetype");
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+nav {
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0;
+}
+
+article,
+section {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Lato", "Helvetica", "Corbel", sans-serif;
+    font-size: 14px;
+    margin: 0;
+    color: #444;
+    line-height: 1.4;
+    overflow: auto;
+}
+
+article {
+    padding: 0 20px;
+    position: relative;
+    border-top: 1px solid #c6d1ad;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: inherit;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 22px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 22px;
+}
+
+h4 {
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+h5 {
+    font-size: 15px;
+    margin-bottom: -22px;
+}
+
+p {
+    font-size: 14px;
+    margin: 22px 0;
+}
+
+b,
+strong {
+    font-weight: bold;
+}
+
+em,
+cite {
+    font-style: italic;
+}
+
+hr {
+    background: #ccc;
+    border: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.075);
+    clear: both;
+    color: #ccc;
+    display: block;
+    height: 1px;
+    margin: 18px 0 36px 0;
+    padding: 0;
+    width: 100%;
+}
+
+a:link,
+a:visited {
+    color: #005987;
+}
+
+a:visited {
+    color: #7d00ad;
+}
+
+a:link:hover,
+a:link:focus,
+a:visited:hover,
+a:visited:focus {
+    color: #707070;
+}
+
+form {
+    display: inline;
+}
+
+#root {
+    position: relative;
+    background-color: #eee;
+    min-width: 768px;
+    min-height: 100%;
+    margin: 0;
+}
+
+#app {
+    position: absolute;
+    display: flex;
+    flex: 1 0 auto;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+#app:focus {
+    outline: none;
+}
