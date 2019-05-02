@@ -137,8 +137,7 @@ table {
     font-style: italic;
     font-weight: 400;
     src: local("Lato Italic"), local("Lato-Italic"),
-        url(https://pacefactory.github.io/webapp-public/fonts/LatoLatin-Italic.woff2)
-            format("woff2");
+        url(./fonts/LatoLatin-Italic.woff2) format("woff2");
 }
 
 @font-face {
@@ -146,8 +145,7 @@ table {
     font-style: normal;
     font-weight: 400;
     src: local("Lato Regular"), local("Lato-Regular"),
-        url(https://pacefactory.github.io/webapp-public/fonts/LatoLatin-Regular.woff2)
-            format("woff2");
+        url(./fonts/LatoLatin-Regular.woff2) format("woff2");
 }
 
 @font-face {
@@ -155,8 +153,7 @@ table {
     font-style: normal;
     font-weight: 700;
     src: local("Lato Bold"), local("Lato-Bold"),
-        url(https://pacefactory.github.io/webapp-public/fonts/LatoLatin-Bold.woff2)
-            format("woff2");
+        url(./fonts/LatoLatin-Bold.woff2) format("woff2");
 }
 
 @font-face {
@@ -164,8 +161,7 @@ table {
     font-style: bold;
     font-weight: 900;
     src: local("Lato Black"), local("Lato-Black"),
-        url(https://pacefactory.github.io/webapp-public/fonts/LatoLatin-Black.woff2)
-            format("woff2");
+        url(./fonts/LatoLatin-Black.woff2) format("woff2");
 }
 
 @font-face {
@@ -173,8 +169,7 @@ table {
     font-style: normal;
     font-weight: 400;
     src: local("Uppen Arms"), local("Uppen-Arms"),
-        url(https://pacefactory.github.io/webapp-public/fonts/UppenArmsNF-Medium.ttf)
-            format("truetype");
+        url(./fonts/UppenArmsNF-Medium.ttf) format("truetype");
 }
 
 img {
